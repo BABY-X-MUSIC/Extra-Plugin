@@ -11,12 +11,10 @@ AUTO_GCASTS = AUTO_GCAST.strip().lower() == "on"
 
 START_IMG_URLS = "https://files.catbox.moe/6iv99c.jpg"
 
-MESSAGE = f"""**๏ ᴛʜɪs ɪs ᴀᴅᴠᴀɴᴄᴇᴅ ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs + ᴄʜᴀɴɴᴇʟs ᴠᴄ. 💌
+MESSAGE = f"""**Advanced music player bot for Telegram groups + channels VC. 🎧
 
-🎧 ᴘʟᴀʏ + ᴠᴘʟᴀʏ + ᴄᴘʟᴀʏ 🎧
-
-➥ sᴜᴘᴘᴏʀᴛᴇᴅ ᴡᴇʟᴄᴏᴍᴇ - ʟᴇғᴛ ɴᴏᴛɪᴄᴇ, ᴛᴀɢᴀʟʟ, ᴠᴄᴛᴀɢ, ʙᴀɴ - ᴍᴜᴛᴇ, sʜᴀʏʀɪ, ʟᴜʀɪᴄs, sᴏɴɢ - ᴠɪᴅᴇᴏ ᴅᴏᴡɴʟᴏᴀᴅ, ᴇᴛᴄ... ❤️
-
+➥ Commands: /play, /vplay, /cplay
+➥ Supported: Welcome, Left notice, Tagall, VCTag, Ban-Mute, Shayari, Lyrics, Song-Video download, etc. ❤️
 🔐ᴜꜱᴇ » [/start](https://t.me/{app.username}?start=help) ᴛᴏ ᴄʜᴇᴄᴋ ʙᴏᴛ
 
 ➲ ʙᴏᴛ :** @{app.username}"""
@@ -25,7 +23,7 @@ BUTTON = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(
-                "๏ ᴋɪᴅɴᴀᴘ ᴍᴇ ๏",
+                "+ Add me to your clan darlo +",
                 url=f"https://t.me/musicXanime_bot?startgroup=s&admin=delete_messages+manage_video_chats+pin_messages+invite_users",
             )
         ]
