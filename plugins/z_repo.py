@@ -16,7 +16,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🌱ƨσʋяcɛ🌱", url=f"https://github.com/Moonshining1/ANNIE-MUSIC/fork"
+                        "🌱ƨσʋяcɛ🌱", url=f"https://t.me/UFC_LINK_ZONE"
                     )
                 ]
             ]
@@ -33,7 +33,7 @@ async def clones(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🌱ƨσʋяcɛ🌱", url=f"https://github.com/Moonshining1/ANNIE-MUSIC/fork"
+                        "🌱ƨσʋяcɛ🌱", url=f"https://t.me/UFC_LINK_ZONE"
                     )
                 ]
             ]
